@@ -1,0 +1,37 @@
+main{
+
+    background-color: #223A2B;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .btn-tabs ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:10px;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+  }
+  .btn-tabs button{
+    color: rgb(253, 5, 5);
+    background: linear-gradient(45deg,rgb(253, 99, 99),rgb(229, 215, 63),rgb(241, 188, 41));
+    padding:10px;
+    font-weight:700;
+    font-size:16px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+  }
+  .btn-tabs button:active{
+    scale:1.05
+  }
+  .red{
+    color: red;
+  }
+  .blue{
+    color: blue;
+  }
+  .yellow{
+    color: yellow;
+  }
